@@ -1,6 +1,8 @@
 # activemodel-url_validator
 
-[![Build Status](https://travis-ci.org/yuku-t/activemodel-url_validator.svg?branch=master)](https://travis-ci.org/yuku-t/activemodel-url_validator) [![Code Climate](https://codeclimate.com/github/yuku-t/activemodel-url_validator/badges/gpa.svg)](https://codeclimate.com/github/yuku-t/activemodel-url_validator) [![Coverage Status](https://coveralls.io/repos/yuku-t/activemodel-url_validator/badge.svg)](https://coveralls.io/r/yuku-t/activemodel-url_validator) [![Dependency Status](https://gemnasium.com/yuku-t/activemodel-url_validator.svg)](https://gemnasium.com/yuku-t/activemodel-url_validator)
+[![Build Status](https://travis-ci.org/tomoasleep/activemodel-url_validator.svg?branch=master)](https://travis-ci.org/tomoasleep/activemodel-url_validator) [![Code Climate](https://codeclimate.com/github/tomoasleep/activemodel-url_validator/badges/gpa.svg)](https://codeclimate.com/github/tomoasleep/activemodel-url_validator) [![Coverage Status](https://coveralls.io/repos/tomoasleep/activemodel-url_validator/badge.svg)](https://coveralls.io/r/tomoasleep/activemodel-url_validator) [![Dependency Status](https://gemnasium.com/tomoasleep/activemodel-url_validator.svg)](https://gemnasium.com/tomoasleep/activemodel-url_validator)
+
+(Originally maintained at [yuku/activemodel-url_validator](https://github.com/yuku/activemodel-url_validator))
 
 ## Usage
 
