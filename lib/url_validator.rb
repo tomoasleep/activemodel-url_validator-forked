@@ -18,16 +18,16 @@ class UrlValidator < ActiveModel::EachValidator
     private
 
     def validate_scheme_appearance(uri, options)
-      uri.scheme.nil? ? options[:allow_no_scheme] : true
+      blank?(uri.scheme) ? options[:allow_no_scheme] : true
     end
 
     def validate_host_appearance(uri, options)
-      uri.host.nil? ? options[:allow_no_host] : true
+      blank?(uri.host) ? options[:allow_no_host] : true
     end
 
     def validate_scheme_type(uri, options)
       if options[:scheme]
-        if uri.scheme.nil? && options[:allow_no_scheme]
+        if blank?(uri.scheme) && options[:allow_no_scheme]
           true
         else
           options[:scheme].include?(uri.scheme)
@@ -35,6 +35,10 @@ class UrlValidator < ActiveModel::EachValidator
       else
         true
       end
+    end
+
+    def blank?(value)
+      value.nil? || value.empty?
     end
   end
 
